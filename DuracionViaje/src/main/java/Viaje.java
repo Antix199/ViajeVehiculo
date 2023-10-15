@@ -27,7 +27,8 @@ public class Viaje {
 
         double distancia = Validaciones.validarEnteroPositivo("Ingrese la distancia aproximada al destino (en kilómetros): ");
         double tiempo = vehiculoElegido.calcularTiempoDeViaje(distancia);
+        String tiempoFormateado = String.format("%.2f", tiempo);
 
-        System.out.println("Hola " + persona.getNombre() + ", el tiempo de viaje aproximado para llegar a " + destino + " en " + vehiculoElegido.getTipoVehiculo() + " es de: " + tiempo + " horas.");
+        System.out.println("Hola " + persona.getNombre() + ", el tiempo de viaje aproximado para llegar a " + destino + " en " + vehiculoElegido.getTipoVehiculo() + " es de: " + tiempoFormateado + " horas.");
     }
 }
