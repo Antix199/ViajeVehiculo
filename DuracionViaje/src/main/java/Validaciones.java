@@ -12,10 +12,10 @@ public class Validaciones {
                 if (valor >= 0) {
                     entradaValida = true;
                 } else {
-                    System.out.println("Error: Ingresa un número entero positivo.");
+                    System.out.println("Error, Ingresa un número entero positivo.");
                 }
             } catch (NumberFormatException e) {
-                System.out.println("Error: Ingresa un número entero válido.");
+                System.out.println("Error, Ingresa un número entero válido.");
             }
         } while (!entradaValida);
 
@@ -28,7 +28,7 @@ public class Validaciones {
         do {
             valor = validarEnteroPositivo(mensaje);
             if (valor < min || valor > max) {
-                System.out.println("Error: Ingresa una opción válida (" + min + " a " + max + ").");
+                System.out.println("Error, Ingresa una opción válida (" + min + " a " + max + ").");
             }
         } while (valor < min || valor > max);
         return valor;
