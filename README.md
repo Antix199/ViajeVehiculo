@@ -1,7 +1,8 @@
 # Antonia Paredes
 # Diagrama de clases:
 
-#
+#![Captura de pantalla (72)](https://github.com/Antix199/ViajeVehiculo/assets/142464955/3e86f8cc-f469-4b77-90ef-94cb0d6b2660)
+
 Análisis del diagrama de clases:
 #
 En primer lugar definí como obvias las clases "Persona" y "Vehículo" (pues todos los medios de transporte mencionados serían objetos de esta clase),
